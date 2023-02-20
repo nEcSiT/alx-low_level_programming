@@ -10,13 +10,10 @@ int main(void)
 
 {
 	char a = '0';
-		if (a <= 10)
-		{
-			putchar(a);
+		if (a < 10)
+			printf("%d", a);
 				a++;
-		}
-		{
-			putchar('\n');
-		}
+		putchar('\n');
+
 		return (0);
 }
