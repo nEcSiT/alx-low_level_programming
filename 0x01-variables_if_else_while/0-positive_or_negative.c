@@ -29,20 +29,20 @@ n = rand() - RAND_MAX / 2;
 
 if (n > 0)
 {
-printf(n, "%d\n is positive");
+int printf(n, ("%d\n is positive"));
 }
 /* Prints positive number*/
 
 else if (n < 0)
 {
-printf(n, "%d\nis negative");
+int printf(n, ("%d\nis negative"));
 }
 /* Prints a negative number*/
 
 else
 {
 n = 0;
-printf(n, "%d\nis zero");
+int printf('n',"%d\nis zero");
 }
 /* Prints zero for the value*/
 
