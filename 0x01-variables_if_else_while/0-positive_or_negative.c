@@ -25,18 +25,18 @@ n = rand() - RAND_MAX / 2;
 */
 if (n > 0)
 {
-printf(n, "%d\n is positive");
+printf("%d\n is positive", n);
 }
 /* Prints positive number*/
 else if (n < 0)
 {
-printf(n, ("%d\nis negative"));
+printf("%d\n is negative", n);
 }
 /* Prints a negative number*/
 else
+(n==0)
 {
-n = 0;
-printf(n,"%d\nis zero");
+printf("%d\n is zero", n);
 }
 /* Prints zero for the value*/
 return (0);
