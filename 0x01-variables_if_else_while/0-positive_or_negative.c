@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * more headers goes there
  *The code runs a negative and positive integers with
  * zero inclusive
 */
@@ -13,12 +12,10 @@ int n;
 /**
  * betty style doc for function main goes there
  * main - the entry point of the code void
- * return: 0 and teminate the code
+ * return: 0
 */
-
 srand(time(0));
 /* runs at a time*/
-
 n = rand() - RAND_MAX / 2;
 /* returns a value*/
 
@@ -26,27 +23,21 @@ n = rand() - RAND_MAX / 2;
  * your code goes there
  * Which runs the value randomly place into it
 */
-
 if (n > 0)
 {
-int printf(n, ("%d\n is positive"));
+printf(n, "%d\n is positive");
 }
 /* Prints positive number*/
-
 else if (n < 0)
 {
-int printf(n, ("%d\nis negative"));
+printf(n, ("%d\nis negative"));
 }
 /* Prints a negative number*/
-
 else
 {
 n = 0;
-int printf('n',"%d\nis zero");
+printf(n,"%d\nis zero");
 }
 /* Prints zero for the value*/
-
 return (0);
-/* Return: 0*/
 }
-
