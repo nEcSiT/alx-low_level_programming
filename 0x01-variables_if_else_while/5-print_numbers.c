@@ -6,13 +6,13 @@
  * Return: 0 (successful)
  */
 
-int main(void)
+	int main(void)
 
 {
-	char a = '0';
-		if (a < 10)
+	char a;
+		for (a = 0; a < 10; a++)
 			printf("%d", a);
-				a++;
+
 		putchar('\n');
 
 		return (0);
