@@ -10,17 +10,12 @@ void print_alphabet_x10(void)
 	int nic = 0;
 	int dor;
 
-		while (nic <= 9)
+		while (nic++ <= 9)
 		{
-			dor = 'a';
-			while (dor <= 'z')
+			for (dor = 'a'; dor <= 'z'; dor++)
 				_putchar(dor);
-					dor++;
-			{
 
-			}
 			_putchar('\n');
-				nic++;
 		}
 
 }
