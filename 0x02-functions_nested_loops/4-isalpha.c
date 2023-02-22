@@ -5,7 +5,7 @@
  * Return: 1 if it is a letter lower or upper else 0
  */
 
-int _isalpha(int c);
+int _isalpha(int c)
 
 {
 	if ((c >= 'a' &&  c <= 'z') || (c >= 'A' && c  <=  'Z'))
