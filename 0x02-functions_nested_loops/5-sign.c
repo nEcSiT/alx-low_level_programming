@@ -6,9 +6,9 @@
  * Return: 1 if the sign is +, 0 if the sign is 0 else print -1
  */
 
-int print_sign(int n)
+int main(void)
 {
-	int r;
+    int r;
 
     r = print_sign(98);
     _putchar(',');
