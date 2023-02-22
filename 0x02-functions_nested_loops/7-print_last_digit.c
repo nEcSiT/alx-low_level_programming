@@ -13,6 +13,6 @@ n = (n % 10);
 
 	if (n < 0)
 
-	_putchar(n + 0);
+	_putchar(n + 1);
 		return (n);
 }
