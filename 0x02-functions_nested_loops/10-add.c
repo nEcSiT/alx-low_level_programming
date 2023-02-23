@@ -9,12 +9,5 @@
 
 int add(int a, int b)
 {
-	a = 2;
-	b = 1;
-
-
-	_putchar(add(a, b));
-	_putchar('\n');
-
-return (add(a, b));
+return (a + b);
 }
