@@ -10,11 +10,11 @@
 int add(int a, int b)
 {
 	a = 2;
-	b = 3;
+	b = 1;
 
 
 	_putchar(add(a, b));
 	_putchar('\n');
 
-return (a + b);
+return (add(a, b));
 }
