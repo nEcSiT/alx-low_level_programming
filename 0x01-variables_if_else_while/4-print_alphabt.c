@@ -10,8 +10,8 @@ int main(void)
 {
 	char ni = 'a';
 		while (ni <= 'z')
-		if (ni != 'q' && ni != 'e')
 	{
+		if ((ni != 'q' && ni != 'e') && ni <= 'z')
 		putchar(ni);
 		ni++;
 	}
