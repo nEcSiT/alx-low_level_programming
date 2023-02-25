@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_most_numbers - a function that prints the numbers
  *
@@ -7,12 +8,12 @@
 void print_most_numbers(void)
 
 {
-	int a = 0;
+	int a;
 
-	while (a <= 9 && (a != 2 && a != 4))
+	for (a = 0; a <= 9; a++)
 	{
-		_putchar(a + '0');
-			a++;
+		if ((a != 2) && (a != 4))
+			_putchar(a + '0');
 	}
-		_putchar('\n');
+	_putchar('\n');
 }
