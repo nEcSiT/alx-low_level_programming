@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * positive_or_negative - checks for negative and positive
  *@i: the int chararcter
@@ -13,11 +13,10 @@ void positive_or_negative(int i)
 
 	printf("%d is negative\n", i);
 
-/**
- *	else if (i == 0)
+	else if (i == 0)
 
- *	printf("%d is zero\n", i);
- */
+	printf("%d is zero\n", i);
+
 	else
 	printf("%d is positve\n", i);
 }
