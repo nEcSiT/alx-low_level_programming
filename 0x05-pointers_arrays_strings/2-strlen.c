@@ -2,7 +2,7 @@
 
 /**
  * _strlen - return a value
- * @c: the int name
+ * @s: the int name
  * Return: 0
  */
 
@@ -10,7 +10,9 @@ int _strlen(char *s)
 
 {
 	int cat = 0;
+
 	for (; *s != '\0'; s++)
+
 	cat++;
 
 return (cat);
