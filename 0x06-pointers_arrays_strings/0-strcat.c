@@ -1,26 +1,27 @@
 #include "main.h"
 
 /**
- * _strcat - concatinate text
- * @dest: the destination file
- * @src: the source file
+ * *_strcat - function
+ * @dest: destination of string
+ * @src: parent string
  * Return: 0
  */
 
 char *_strcat(char *dest, char *src)
-
 {
+	char *dest_end = dest;
 
-	while (*dest != '\0')
+	while (*dest_end != '\0')
 	{
-		dest++;
+		dest_end++;
 	}
 	while (*src != '\0')
 	{
-		*dest = *src;
-		dest++;
+		*dest_end = *src;
+		dest_end++;
 		src++;
 	}
-	*dest = '\0';
+	*dest_end = '\0';
 	return (dest);
 }
+
