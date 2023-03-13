@@ -12,8 +12,8 @@ int main(int argc, __attribute__((unused)) char *argv[])
 
 {
 int i, sum = 0;
-	for(i = 0; i < argc; i++)
- 	sum += i;
+	for (i = 0; i < argc; i++)
+		sum += i;
 	printf("%d\n", sum);
 
 return (0);
