@@ -13,16 +13,18 @@ int main(__attribute__((unused)) int argc, char *argv[])
 
 {
 
-int i , sum = 0;
+int i, sum = 0;
 
 		for (i = 0; i < argc; i++)
-			sum += atoi (argv[i]);
+
+
+			sum += atoi(argv[i]);
 
 	if (_isalpha(sum))
 
 		printf("Error\n");
 
-	else 
+	else
 		printf("%d\n", sum);
 
 
