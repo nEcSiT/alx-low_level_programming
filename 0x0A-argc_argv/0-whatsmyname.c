@@ -1,7 +1,7 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 
-/** 
+/**
  * main - the entry point
  * @argc: the argument count
  * @argv: the arguement vector
@@ -13,11 +13,7 @@ int main(int argc, char *argv[])
 {
 int i;
 
-	for (i = 0; i < argc; i++)
-
-		_putchar(*argv[i]);
-
-	_putchar('\n');
+	printf("%s\n", arhv[argc * 0]);
 
 return (0);
 }
