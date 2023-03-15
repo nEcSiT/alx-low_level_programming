@@ -18,12 +18,14 @@ unsigned int i;
 	{
 		return (NULL);
 	}
-	else
 
-	{
-		char *arr = (char *)malloc(size * sizeof(char));
+	char *arr = (char *)malloc(size * sizeof(char));
 
-			for (i = 0; i <= size; i++)
+		if (arr == NULL)
+
+			return (NULL);
+
+		for (i = 0; i <= size; i++)
 
 				arr[i] = c;
 		return (arr);
