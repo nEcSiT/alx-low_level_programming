@@ -4,7 +4,7 @@
 #include <string.h>
 /**
  * _strdup - function that duplicate
- * @str: string 
+ * @str: string
  *
  * Return: Null or 0
  */
@@ -19,15 +19,15 @@ char *dup;
 
 		return (NULL);
 
-	else
+	i = strlen(str);
 
-		i = strlen(str);
+	dup = malloc(sizeof(char) * (i + 1));
 
-	dup = malloc(sizeof (char) * (i + 1));
+	if (dup == NULL)
 
-		strcpy(dup, str);
+		return (NULL);
 
-	return (dup);
+	strcpy(dup, str);
 
-
+		return (dup);
 }
