@@ -22,14 +22,15 @@ char *arr;
 
 	arr = malloc(size * sizeof(char));
 
-		if (arr == NULL)
+	if (arr == NULL)
+	{
+		return (NULL);
+	}
+	for (i = 0; i <= size; i++)
 
-			return (NULL);
+		arr[i] = c;
+	return (arr);
 
-			for (i = 0; i <= size; i++)
-
-				arr[i] = c;
-		return (arr);
-		free(arr);
+free(arr);
 
 }
