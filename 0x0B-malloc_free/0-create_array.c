@@ -21,12 +21,12 @@ unsigned int i;
 	else
 
 	{
-	char * arr = (char*) malloc(size * sizeof (char));
+		char *arr = (char *)malloc(size * sizeof(char));
 
-		for (i = 0; i <= size; i++)
+			for (i = 0; i <= size; i++)
 
-			arr[i] = c;
-
+				arr[i] = c;
 		return (arr);
-	 }
+		free(arr);
+	}
 }
