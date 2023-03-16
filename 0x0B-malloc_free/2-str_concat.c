@@ -8,7 +8,7 @@
  * @s1: string 1
  * @s2: string 2
  *
- * Retrun: null when failed
+ * Return: null when failed
  */
 
 char *str_concat(char *s1, char *s2)
