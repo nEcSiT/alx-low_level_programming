@@ -5,7 +5,10 @@
 #include <stdlib.h>
 
 /**
- * dog - struct type
+ * struct dog - struct type
+ * @name: char type
+ * @age: int type
+ * @owner: char type
  *
  * Return:0
  */
