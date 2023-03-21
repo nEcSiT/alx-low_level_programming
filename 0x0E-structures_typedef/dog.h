@@ -1,6 +1,8 @@
 #ifndef DOG_H
 #define DOG_H
 
+#endif
+
 #include <stdio.h>
 #include <stdlib.h>
 
