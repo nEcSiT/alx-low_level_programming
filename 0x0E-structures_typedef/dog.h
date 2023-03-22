@@ -1,27 +1,23 @@
 #ifndef DOG_H
 #define DOG_H
 
-#include <stdio.h>
-#include <stdlib.h>
-
-/**
- * struct dog - struct type
- * @name: char type
- * @age: int type
- * @owner: char type
- *
- * Return:0
+/*
+ * File: dog.h
+ * Desc: Header file that defines a new type struct dog.
  */
 
-	struct dog
-	{
+/**
+ * struct dog - A new type describing a dog.
+ * @name: The name of the dog.
+ * @age: The age of the dog.
+ * @owner: The owner of the dog.
+ */
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
-	};
-#endif
-#ifndef DOG_H
-#define DOG_H
+};
 
 /**
  * dog_t - Typedef for struct dog
