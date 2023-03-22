@@ -3,8 +3,8 @@
 /**
  * int_index - main entrance of the function
  * @array: array
- * size: the size
- * cmp: funct pointer
+ * @size: the size
+ * @cmp: funct pointer
  *
  * Return:0
  */
