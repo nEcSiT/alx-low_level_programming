@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdarg.h>
+
 /**
  * print_all - print everything
  * @format: char type
  * Return: 0;
  */
+
 void print_all(const char * const format, ...)
 {
 	va_list args;
