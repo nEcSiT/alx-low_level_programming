@@ -33,9 +33,7 @@ void print_all(const char * const format, ...)
 			printf("%s", str);
 		}
 		else
-		{
-			printf("(nil)");
-		}
+		{printf("(nil)"); }
 		break;
 	default:
 		break;
@@ -43,9 +41,7 @@ void print_all(const char * const format, ...)
 
 	if (format[i + 1] && (format[i] == 'c' || format[i] == 'f'
 		|| format[i] == 'i' || format[i] == 's'))
-	{
-		printf(", ");
-	}
+	{printf(", "); }
 	i++;
 	}
 	printf("\n");
