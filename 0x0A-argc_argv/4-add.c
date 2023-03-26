@@ -1,13 +1,14 @@
 #include <stdio.h>
-#include "main.h"
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
+#include "main.h"
 
 /**
- * main - the entry point
- * @argc: number count
- * @argv: vetor or string
- * Return: 0
+ * main - Program that takes in all integer 
+ * @argc: Number of command line arguments
+ * @argv: Array name
+ * Return: 1 if a non-integer is among the passed in arguments, 0 otherwise
  */
 
 int main(int argc, char *argv[])
@@ -16,7 +17,7 @@ int main(int argc, char *argv[])
 	char *ptr;
 
 	if (argc < 2)
-	printf("0\n");
+		printf("0\n");
 	else
 	{
 		sum = 0;
@@ -37,7 +38,7 @@ int main(int argc, char *argv[])
 			sum += atoi(argv[i]);
 		}
 
-		printf("%d\n", sum);
+	printf("%d\n", sum);
 	}
 	return (0);
 }
