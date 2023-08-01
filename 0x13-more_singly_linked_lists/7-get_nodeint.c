@@ -1,4 +1,3 @@
-s (19 sloc)  373 Bytes
 #include "lists.h"
 /**
  * get_nodeint_at_index - return nodes at a certain index
